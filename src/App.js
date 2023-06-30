@@ -2,13 +2,15 @@ import './App.css';
 import Menu from './Menu/Menu';
 import AboutMe from './AboutMe/AboutMe';
 import Skills from './Skills/Skills';
+import Projects from './Projects/Projects';
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Menu/>
       <AboutMe/>
-      <Skills></Skills>
+      <Skills/>
+      <Projects/>
     </div>
   );
 }

@@ -1,0 +1,22 @@
+#tituloProjects{
+    margin: 50px;
+    padding: 25px;
+    border-bottom: 2px solid gray;
+}
+
+#Container-Projects{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.card-Project{
+    background-color: gray;
+    width: 400px;
+    margin: 25px;
+}
+
+.imgFake{
+    background-color: rgb(122, 113, 113);
+    height: 250px;
+}

@@ -1,16 +1,22 @@
 #Menu{
+    width: 100%;
     background-color: white;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    padding: 25px 50px;
     border-bottom: 2px solid gray;
+    position: fixed;
+}
+
+#socialNetworks{
+    margin: 25px;
 }
 
 #Links{
     display: flex;
     align-items: center;
+    margin: 25px;
 }
 
 .link{
