@@ -51,7 +51,7 @@
 }
 
 .project-picture{
-    width: 50px;
+    width: 350px;
     height: 100%;
     transition: .5s cubic-bezier(.5,.03,.41,1);
     z-index: 1;
