@@ -38,6 +38,7 @@ td:hover{
 }
 
 td{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     margin: 15px;

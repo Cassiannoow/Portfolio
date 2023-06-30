@@ -41,7 +41,6 @@
 .tecnologiesUsed{
     margin: 5px;
     transition: 0.5s;
-    filter: grayscale(0.3);
     cursor: pointer;
 }
 
@@ -49,7 +48,6 @@
     margin: 5px;
     transform: scale(1.1);
     transition: 0.5s;
-    filter: grayscale(0);
 }
 
 .project-picture{
@@ -86,4 +84,10 @@
 #view-more-button{
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-width: 480px) {
+    .picturebox{
+        width: 50%;
+    }
 }
