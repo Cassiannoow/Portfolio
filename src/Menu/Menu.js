@@ -26,9 +26,9 @@ export default function Menu()
                 </Link>
             </div>
             <div id="Links">
-                <Link to="#about-me" className="link" >About Me</Link>
-                <Link to="#skills" className="link">Skills</Link>
-                <Link to="#projects"className="link" >Projects</Link>
+                <a className="link" href="#AboutMe">About Me</a>
+                <a className="link" href="#skills">Skills</a>
+                <a className="link" href="#projects">Projects</a>
             </div>
         </div>
     )

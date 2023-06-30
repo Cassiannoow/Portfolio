@@ -12,7 +12,9 @@ import mysqlIcon from '../Assets/Icons/mysql.png'
 import mongodbIcon from '../Assets/Icons/mongodb.png'
 import pythonIcon from '../Assets/Icons/python.png'
 import dbeaverIcon from '../Assets/Icons/dbeaver.png'
-
+import frontendIcon from '../Assets/Icons/front-end.png'
+import backendIcon from '../Assets/Icons/backend.png'
+import dbIcon from '../Assets/Icons/database.png'
 
 
 export default function Skills()
@@ -22,9 +24,9 @@ export default function Skills()
             <h1 id='tituloMySkills'>SKILLS</h1>
             <table>
                 <tr id='titulos'>
-                    <th><h2>FRONT-END</h2></th>
-                    <th><h2>BACK-END</h2></th>
-                    <th><h2>DATABASES</h2></th>
+                    <th><img className='iconsSkills' src={frontendIcon} width={50}/><h2>FRONT-END</h2></th>
+                    <th><img className='iconsSkills' src={backendIcon} width={50}/><h2>BACK-END</h2></th>
+                    <th><img className='iconsSkills' src={dbIcon} width={50}/><h2>DATABASES</h2></th>
                 </tr>
                 <tr className='languages'>
                     <td><img src={htmlIcon}/>HTML</td>
