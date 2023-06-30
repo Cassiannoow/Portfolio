@@ -46,9 +46,6 @@ export default function Projects()
                     </div>
                 </div>
                 <div className='card-Project'>
-                    <div className='picturebox'>
-                        <img className='project-picture' src={proambPicture} height={300}/>
-                    </div>
                     <div className='card-content'>
                         <h1>PROAMB</h1>
                         <p>
@@ -63,6 +60,9 @@ export default function Projects()
                             <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
                             <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
                         </div>
+                    </div>
+                    <div className='picturebox'>
+                        <img className='project-picture' src={proambPicture} height={300}/>
                     </div>
                 </div>
                 <div className='card-Project'>

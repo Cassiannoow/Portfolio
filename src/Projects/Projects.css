@@ -19,11 +19,16 @@
     margin: 25px;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .card-content{
     padding: 25px;
     text-align: left;
+    margin: auto;
+    max-width: 500px;
 }
 
 .imgFake{
@@ -59,6 +64,7 @@
 }
 
 .picturebox{
+    margin: auto;
     background-color: gray;
     height: 300px;
 }
