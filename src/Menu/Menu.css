@@ -21,6 +21,7 @@
 }
 
 .link{
+    display: none;
     text-decoration: none;
     margin: 15px;
     color: black;
@@ -54,3 +55,10 @@
     transform: scale(1.1);
     transition: 0.2s;
 }
+
+@media (min-width: 635px) {
+    .link{
+        display: flex;
+    }
+}
+
