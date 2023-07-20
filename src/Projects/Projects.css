@@ -1,18 +1,18 @@
-#projects{
-    padding-top: 100px;
+.projects{
+    background-image: url("https://media.tenor.com/8XfhFrwNfv0AAAAC/space-pixel-art.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 #tituloProjects{
-    margin: 50px;
-    padding: 25px;
-    border-bottom: 2px solid gray;
+    text-align: center;
 }
 
 #Container-Projects{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 50px;
 }
 
 .card-Project{
@@ -54,7 +54,6 @@
     width: 350px;
     height: 100%;
     transition: .5s cubic-bezier(.5,.03,.41,1);
-    z-index: 1;
 }
 
 .project-picture:hover{
@@ -72,10 +71,11 @@
 #show-more{
     color: white;
     width: 250px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     cursor: pointer;
     transition: 0.5s;
     padding: 15px;
+    text-align: center;
 }
 
 #show-more:hover{
@@ -85,7 +85,7 @@
 
 #view-more-button{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 @media (min-width: 480px) {

@@ -1,13 +1,8 @@
-#skills{
-    padding-top: 85px;
-}
-
-table{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+.skills{
+    background-image: url("https://rare-gallery.com/thumbs/4573821-vladstudio-library-ladders-candles-shelves-books.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
 
 #titulos{
@@ -16,36 +11,58 @@ table{
     justify-content: space-around;
 }
 
+#skill-list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.areas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
 #tituloMySkills{
-    margin: auto;
-    border-bottom: 2px solid gray;
-    margin: 25px;
+    text-align: center;
     padding: 25px;
 }
 
-.languages{
-    width: 100%;
+.languages-icons{
+    margin: 30px;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    text-align: center;
-    align-items: center;
     font-weight: 600;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-td:hover{
+.icons-with-name{
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.icons-with-name:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
 
-td{
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
-    transition: 0.5s;
+#dbeaver{
+    filter: invert(1);
 }
 
-th{
-    width: 250px;
-    border-bottom: 2px solid gray;
+.gradient{
+    background-image: linear-gradient(to bottom, black 10%, rgba(0, 0, 0, 0.589) 50%, black 90%)
+}
+
+.title-area{
+    width: 150px;
 }

@@ -1,13 +1,11 @@
 #Menu{
     width: 100%;
-    background-color: white;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid gray;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
 }
 
 #socialNetworks{
@@ -24,7 +22,7 @@
     display: none;
     text-decoration: none;
     margin: 15px;
-    color: black;
+    color: white;
     font-weight: bold;
     align-items: center;
     transition: 0.2s;
@@ -48,6 +46,7 @@
     width: 50px;
     margin: 5px;
     transition: 0.2s;
+    filter: invert(1);
 }
 
 .icons:hover{

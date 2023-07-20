@@ -22,74 +22,75 @@ import doubleDown from '../Assets/Icons/doubledown.png'
 export default function Projects()
 {
     return(
-        <div id="projects">
-            <h1 id='tituloProjects'>PROJECTS</h1>
-            <div id='Container-Projects'>
-                <div className='card-Project'>
-                    <div className='card-content'>
-                        <h1>PROAMB</h1>
-                        <p>
-                            The site proamb is a site that deals with nature and recycling, 
-                            we created a community like a blog.
-                        </p>
-                        <div className='tecnologies'>
-                            <h4>Technologies used:</h4>
-                            <img className='tecnologiesUsed' src={htmlIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={cssIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={reactIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
+        <div className="projects">
+            <div className='gradient'>
+                <h1 id='tituloProjects'>PROJECTS</h1>
+                <div id='Container-Projects'>
+                    <div className='card-Project'>
+                        <div className='card-content'>
+                            <h1>PROAMB</h1>
+                            <p>
+                                The site proamb is a site that deals with nature and recycling, 
+                                we created a community like a blog.
+                            </p>
+                            <div className='tecnologies'>
+                                <h4>Technologies used:</h4>
+                                <img className='tecnologiesUsed' src={htmlIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={cssIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={reactIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
+                            </div>
+                        </div>
+                        <div className='picturebox'>
+                            <img className='project-picture' src={proambPicture} height={300}/>
                         </div>
                     </div>
-                    <div className='picturebox'>
-                        <img className='project-picture' src={proambPicture} height={300}/>
-                    </div>
-                </div>
-                <div className='card-Project'>
-                    <div className='card-content'>
-                        <h1>PROAMB</h1>
-                        <p>
-                            The site proamb is a site that deals with nature and recycling, 
-                            we created a community like a blog.
-                        </p>
-                        <div className='tecnologies'>
-                            <h4>Technologies used:</h4>
-                            <img className='tecnologiesUsed' src={htmlIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={cssIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={reactIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
+                    <div className='card-Project'>
+                        <div className='card-content'>
+                            <h1>PROAMB</h1>
+                            <p>
+                                The site proamb is a site that deals with nature and recycling, 
+                                we created a community like a blog.
+                            </p>
+                            <div className='tecnologies'>
+                                <h4>Technologies used:</h4>
+                                <img className='tecnologiesUsed' src={htmlIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={cssIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={reactIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
+                            </div>
+                        </div>
+                        <div className='picturebox'>
+                            <img className='project-picture' src={proambPicture} height={300}/>
                         </div>
                     </div>
-                    <div className='picturebox'>
-                        <img className='project-picture' src={proambPicture} height={300}/>
-                    </div>
-                </div>
-                <div className='card-Project'>
-                    <div className='card-content'>
-                        <h1>PROAMB</h1>
-                        <p>
-                            The site proamb is a site that deals with nature and recycling, 
-                            we created a community like a blog.
-                        </p>
-                        <div className='tecnologies'>
-                            <h4>Technologies used:</h4>
-                            <img className='tecnologiesUsed' src={htmlIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={cssIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={reactIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
-                            <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
+                    <div className='card-Project'>
+                        <div className='card-content'>
+                            <h1>PROAMB</h1>
+                            <p>
+                                The site proamb is a site that deals with nature and recycling, 
+                                we created a community like a blog.
+                            </p>
+                            <div className='tecnologies'>
+                                <h4>Technologies used:</h4>
+                                <img className='tecnologiesUsed' src={htmlIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={cssIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={reactIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={csharpIcon} width={50}/>
+                                <img className='tecnologiesUsed' src={sqlIcon} width={50}/>
+                            </div>
+                        </div>
+                        <div className='picturebox'>
+                            <img className='project-picture' src={proambPicture} height={300}/>
                         </div>
                     </div>
-                    <div className='picturebox'>
-                        <img className='project-picture' src={proambPicture} height={300}/>
+                    <div id='show-more'>
+                        <Link id='view-more-button'>VIEW MORE</Link>
                     </div>
-                </div>
-                <div id='show-more'>
-                    <Link id='view-more-button'>VIEW MORE</Link>
                 </div>
             </div>
-            
         </div>
     )
 }

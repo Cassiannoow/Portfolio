@@ -10,8 +10,11 @@ function App() {
     <div className="App">
       <Menu/>
       <AboutMe/>
+      <div className='spacing' id="skills"></div>
       <Skills/>
+      <div className='spacing-projects' id='projects'></div>
       <Projects/>
+      <div className='spacing' id='projects'></div>
       <Footer/>
     </div>
   );

@@ -7,23 +7,14 @@ export default function AboutMe()
 {
     return(
         <div id="AboutMe">
-            <div id="ApresentacaoCompleta">
+            <div id="image-back">
                 <div id="Apresentacao">
-                    <h1>
-                        Hello there 👋, <br/>
-                        I'm João Cassiano,<br/>
-                        Full-Stack Developer 🚀
-                    </h1>
-                    <h6 id="Apresentacao-2">
-                        I'm in love with programming and super excited to learn new languages, 
-                        I'm currently studying at Colégio Técnico de Campinas (COTUCA), 
-                        since I was a child I've been very interested in technology, 
-                        I had already taken some programming courses, 
-                        but I started intensively when I entered school in 2022,          
-                        I am very easy to learn and I am always looking for knowledge.
-                    </h6>
+                    <div>
+                        <span>Hello there 👋, I'm </span>
+                        <h1 id="full"><span id="myname">João Cassiano</span></h1>
+                        <h2>Full-Stack Developer</h2>
+                    </div>
                 </div>
-                <img id="MyPicture" src={MyPicture} alt="A picture of me"/>
             </div>
         </div>
     )

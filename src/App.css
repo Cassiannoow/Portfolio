@@ -1,23 +1,24 @@
 *{
   scroll-behavior: smooth; 
+  margin: 0;
+  padding: 0;
+  font-family: Rubik, sans-serif;
 }
 
 body::-webkit-scrollbar{
-  width: 10px;
+  width: 5px;
 }
 
 body::-webkit-scrollbar-track {
-  background: white;      /* color of the tracking area */
+  background-color: transparent;      /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb{
-  background-color: gray;
-  border-radius: 20px;
-  border: 2px solid white;
+  background-color: aquamarine;
 }
 
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -53,4 +54,14 @@ body::-webkit-scrollbar-thumb{
   to {
     transform: rotate(360deg);
   }
+}
+
+.spacing{
+  background-color: black;
+  height: 150px;
+}
+
+.spacing-projects{
+  background-color: black;
+  height: 200px;
 }

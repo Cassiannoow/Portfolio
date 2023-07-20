@@ -1,4 +1,6 @@
 #Footer{
-    border-top: 2px solid gray;
-    color: rgb(0, 0, 0);
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
 }

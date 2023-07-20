@@ -20,35 +20,67 @@ import dbIcon from '../Assets/Icons/database.png'
 export default function Skills()
 {
     return(
-        <div id="skills">
-            <h1 id='tituloMySkills'>SKILLS</h1>
-            <table>
-                <tr id='titulos'>
-                    <th><img className='iconsSkills' src={frontendIcon} width={50}/><h2>FRONT-END</h2></th>
-                    <th><img className='iconsSkills' src={backendIcon} width={50}/><h2>BACK-END</h2></th>
-                    <th><img className='iconsSkills' src={dbIcon} width={50}/><h2>DATABASES</h2></th>
-                </tr>
-                <tr className='languages'>
-                    <td><img src={htmlIcon}/>HTML</td>
-                    <td><img src={nodeIcon}/>NODE</td>
-                    <td><img src={sqlIcon}/>SQL SERVER</td>
-                </tr>
-                <tr className='languages'>
-                    <td><img src={cssIcon}/>CSS</td>
-                    <td><img src={javaIcon}/>JAVA</td>
-                    <td><img src={mysqlIcon}/>MY SQL</td>
-                </tr>
-                <tr className='languages'>
-                    <td><img src={jsIcon}/>JAVASCRIPT</td>
-                    <td><img src={csharpIcon} width={100}/>C#</td>
-                    <td><img src={mongodbIcon}/>MONGODB</td>
-                </tr>
-                <tr className='languages'>
-                    <td><img src={reactIcon}/>REACT</td>
-                    <td><img src={pythonIcon}/>PYTHON</td>
-                    <td><img src={dbeaverIcon}/>DBEAVER</td>
-                </tr>
-            </table>
+        <div className="skills">
+            <div className='gradient'>
+                <h1 id='tituloMySkills'>SKILLS</h1>
+                <div id='skill-list'>
+                    <div className='areas'>
+                        <div className='icons-with-name-title'>
+                            <h2 className='title-area'>FRONT-END</h2>
+                        </div>
+                        <div className='languages-icons'>
+                            <div className='icons-with-name'>
+                                <img width={75} src={htmlIcon}/>HTML
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={cssIcon}/>CSS</div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={jsIcon}/>JAVASCRIPT</div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={reactIcon}/>REACT
+                            </div>
+                        </div>
+                    </div>
+                    <div className='areas'>
+                        <div className='icons-with-name-title'>
+                            <h2 className='title-area'>BACK-END</h2>
+                        </div>
+                        <div className='languages-icons'>
+                            <div className='icons-with-name'>
+                                <img width={75} src={nodeIcon}/>NODE
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={javaIcon}/>JAVA
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={csharpIcon}/>C#
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={pythonIcon}/>PYTHON
+                            </div>
+                        </div>
+                    </div>
+                    <div className='areas'>
+                        <div className='icons-with-name-title'>
+                            <h2 className='title-area'>DATABASES</h2>
+                        </div>
+                        <div className='languages-icons'>
+                            <div className='icons-with-name'>
+                                <img width={75} src={sqlIcon}/>SQL SERVER
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={mysqlIcon}/>MY SQL
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} src={mongodbIcon}/>MONGODB
+                            </div>
+                            <div className='icons-with-name'>
+                                <img width={75} id='dbeaver' src={dbeaverIcon}/>DBEAVER
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
