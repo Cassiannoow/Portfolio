@@ -64,10 +64,12 @@ export default function Projects()
                                 <img className='tecnologiesUsed' src={firebaseIcon} width={50}/>
                             </div>
                         </div>
-                        <div className='picturebox-braintalk'>
-                            <Link to="https://github.com/Cassiannoow/BrainTalk" target="_blank">
-                                <img className='project-picture' src={braintalkPicture} height={300}/>
-                            </Link>
+                        <div className='tamanhoImagem'>
+                            <div className='picturebox-braintalk'>
+                                <Link to="https://github.com/Cassiannoow/BrainTalk" target="_blank">
+                                    <img className='project-picture-braintalk' src={braintalkPicture}height={300}/>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                     <div className='card-Project'>
