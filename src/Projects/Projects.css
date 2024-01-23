@@ -62,10 +62,21 @@
     transition: .5s cubic-bezier(.5,.03,.41,1);
 }
 
+.picturebox-braintalk{
+    margin: auto;
+    background-color: rgb(43, 43, 43);
+    height: 300px;
+    border-radius: 23px;
+    border: solid 3px white;
+    margin-left: 221px;
+    margin-right: 221px;
+}
+
 .picturebox{
     margin: auto;
-    background-color: gray;
+    background-color: rgb(43, 43, 43);
     height: 300px;
+    border: solid 3px white;
 }
 
 #show-more{

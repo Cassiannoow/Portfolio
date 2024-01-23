@@ -1,4 +1,4 @@
-#Menu{
+.Menu{
     width: 100%;
     display: flex;
     text-align: center;
@@ -6,6 +6,19 @@
     justify-content: space-between;
     position: fixed;
     z-index: 1;
+    transition: all ease 0.5s;
+}
+
+.ativaCor{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    transition: all ease 0.5s;
 }
 
 #socialNetworks{

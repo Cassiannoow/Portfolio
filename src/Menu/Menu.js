@@ -7,16 +7,14 @@ import whatsappIcon from '../Assets/Icons/whatsapp.png'
 import instagramIcon from '../Assets/Icons/instagram.png'
 
 
-export default function Menu()
+
+export default function Menu({acao})
 {
     return(
-        <div id="Menu">
+        <div className={ acao ? 'ativaCor' : 'Menu'}>
             <div id="socialNetworks">
                 <Link to="https://github.com/Cassiannoow" target="_blank">
                     <img className="icons" src={gitHubIcon} alt="Github Icon"/>
-                </Link>
-                <Link to="" target="_blank">
-                    <img className="icons" src={linkedinIcon} alt="Linkedin Icon"/>
                 </Link>
                 <Link to="https://wa.me/5519995569777" target="_blank">
                     <img className="icons" src={whatsappIcon} alt="Whatsapp Icon"/>
